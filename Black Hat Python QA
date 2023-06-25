@@ -67,6 +67,16 @@ Questions:
 4. How can you interact with web services using the urllib package?
 5. What is the difference between the lxml and BeautifulSoup packages?
 
+Answers:
+1. The purpose of the "Web Hackery" text is to provide information and guidance on web application hacking techniques.
+
+2. Some web application tools mentioned in the text include Burp Suite, Sqlmap, Dirbuster, OWASP ZAP, and Nikto.
+
+3. The urllib2 library (deprecated) is used for making HTTP requests and handling responses in Python.
+
+4. You can interact with web services using the urllib package by making HTTP GET and POST requests, setting headers, handling cookies, and basic authentication.
+
+5. The lxml package is a fast and efficient library for parsing HTML and XML, while BeautifulSoup is a Python library built on top of parsers like lxml, providing a user-friendly interface for parsing HTML documents.
 
 
 
@@ -187,3 +197,15 @@ Questions:
 3. How can Volatility be installed?
 4. How can the Volatility command line be used?
 5. Can Volatility be used to create custom plug-ins?
+
+Answers:
+
+1. The purpose of Volatility is to analyze volatile memory (RAM) in order to extract valuable information and perform forensic investigations.
+
+2. The Volatility framework can be used for a variety of tasks related to memory forensics, including identifying running processes, analyzing network connections, extracting cryptographic keys, recovering passwords, detecting rootkits, and investigating malware infections.
+
+3. Volatility can be installed by downloading the latest release from the Volatility GitHub repository and following the installation instructions provided in the documentation. Typically, it involves installing Python and required dependencies, then setting up the Volatility environment.
+
+4. The Volatility command line is used to execute various commands and plugins for analyzing memory dumps. It allows users to specify the profile, which represents the operating system and version of the memory image being analyzed, and provides access to a range of plugins that perform specific analysis tasks.
+
+5. Yes, Volatility can be used to create custom plugins. It provides a plugin interface that allows users to develop their own analysis routines and extend the capabilities of the framework. This feature enables customization based on specific investigation requirements or the need to analyze new types of data.
